@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15em 0;
+    background-color:aquamarine;
+
+}
+.section{
+    /* width: 25%; */
+    border: 2px solid black;
+    padding: 1em;
+    text-align: center;
+    background-color: white;
+    min-width: 50%;
+    width:50% ;
+    max-width: 50%;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+
+.player1-score,.player2-score{
+    font-size: 2rem;
+}
+.player1-dice-roll, .player2-dice-roll{
+    border: 2px solid black;
+    display: inline-block;
+    padding:.15em .20em ;
+    margin:0 1em;    
+    font-size: 4rem;
+    background-color:bisque;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+
+.btn{
+    padding: 1em;
+    font-size: 1rem;
+    /* display: none; */
+}
+
+.active{
+    display: block;
+}
+
+.active{
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+.Roll-dice{
+    display: block;
+    margin: 0 auto;
+}
+
+.Reset{
+    margin: 0 auto;
+    display: none ;
+}
